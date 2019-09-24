@@ -1,0 +1,1 @@
+swearlist = ["poop","crap","fuck"]
