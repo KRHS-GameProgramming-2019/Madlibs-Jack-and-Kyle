@@ -1,3 +1,5 @@
+# Madlibs By Jack and Kyle
+
 import Screens, Getters, Story1
 
 def Madlibs(debug=False):
