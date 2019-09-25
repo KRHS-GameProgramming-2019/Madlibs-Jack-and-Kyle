@@ -1,8 +1,8 @@
-#Combined Story
+# Kyles Story
 import Getters
 
-def Story1(debug):
-    if debug: print("Story1 Function")
+def Story3(debug):
+    if debug: print("Story3 Function")
     print("\n")
     
     friendName1 = Getters.getWord("Enter a name: ",debug)

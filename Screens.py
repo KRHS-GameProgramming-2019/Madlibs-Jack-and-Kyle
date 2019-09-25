@@ -7,9 +7,9 @@ def titleScreen(debug=False):
     output += "#                                            #\n"
     output += "#                     By                     #\n"
     output += "#                                            #\n"
-    output += "#             Jack             kyle          #\n"
+    output += "#              Jack        Kyle              #\n"
     output += "#                    and                     #\n"
-    output += "#          Chambers                          #\n"
+    output += "#          Chambers        Goodwin           #\n"
     output += "#                                            #\n"
     output += "##############################################\n"
     
