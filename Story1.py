@@ -4,13 +4,11 @@ import Getters
 def Story1(debug):
     if debug: print("Story1 Function")
     print("\n")
+    output = ""
+
+    course1 = Getters.getCourse("")
     
-    friendName1 = Getters.getWord("Enter a name: ",debug)
-    sportName1 = Getters.getSport("Enter a sport: ",debug)
-    
-    output = "\n"
-    output += "One day me and my friend " + friendName1
-    output += " were playing "+sportName1+"\n"
-    output += friendName1 + " scored a point"
+    output += "Mario Kart Legacy: \n"
+    output += "The race was on"
 
     return output
