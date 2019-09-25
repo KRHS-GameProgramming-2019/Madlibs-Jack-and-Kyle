@@ -6,9 +6,19 @@ def Story1(debug):
     print("\n")
     output = ""
 
-    course1 = Getters.getCourse("")
+    character1 = ""
+    color1 = ""
+    kartType = ""
+    city = ""
+    town = ""
+    color2 = ""
+    firstLetter = ""
+    character2 = ""
+    hours = ""
+    socialMedia = ""
     
     output += "Mario Kart Legacy: \n"
-    output += "The race was on"
+    output += "One day",character1,"was walking down the street, \n"
+    output += "and they saw a",color1,kartType,"and they stole it. \n"
 
     return output
