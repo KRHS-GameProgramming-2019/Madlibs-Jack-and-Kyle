@@ -58,6 +58,23 @@ def getSport(prompt,debug=False):
     
     return word
 
+def getColor(prompt,debug=False):
+    if debug: print("getColor Function")
+    
+    goodInput = False
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        
+        if isSwear(word,debug):
+            goodInput = False
+            print("Please dont swear!")
+        elif word.lower() not in Lists.colors:
+            goodInput = False
+            print("Please enter a color!")
+    
+    return word
+
 def isSwear(word, debug=False):
     if debug: print("SwearWord Function")
     
