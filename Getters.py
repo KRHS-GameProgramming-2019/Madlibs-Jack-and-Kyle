@@ -125,7 +125,24 @@ def getSocial(prompt,debug=False):
             goodInput = False
             print("Please enter a Social Media Platform!")
     return word
-
+    
+def getNumber(prompt,debug=False):
+    if debug: print("getNumber Function")
+    
+    goodInput = False
+    while not goodInput:
+        number = input(prompt)
+        goodInput = True
+        
+        if isSwear(word,debug):
+            goodInput = False
+            print("Please dont swear!")
+        try:
+            number = int(number)
+            goodInput = True
+        except:
+            goodInput = False
+            print("Please enter a number!")
 
 
 def isSwear(word, debug=False):
