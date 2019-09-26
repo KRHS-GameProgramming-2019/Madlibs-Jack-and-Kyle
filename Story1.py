@@ -18,7 +18,7 @@ def Story1(debug=False):
     socialMedia = Getters.getSocial("Enter a Social Media Platform: ")
     print("\n")
     
-    output += "Mario Kart Legacy: \n"
+    output += "Mario Kart Race Story: \n"
     output += "One day "+character1+" was walking down the street,\n"
     output += "and they saw a "+color1+" "+kartType+" and they stole it.\n"
     output += character1+" took the "+kartType+" to the "+town+" "+city+" auto shop.\n"

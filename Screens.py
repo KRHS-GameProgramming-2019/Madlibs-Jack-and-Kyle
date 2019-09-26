@@ -20,7 +20,7 @@ def mainMenu(debug=False):
     
     output = "##############################################\n"
     output += "#                                            #\n"
-    output += "#           1) Mario Kart Legacy             #\n"
+    output += "#           1) Mario Kart Race Story         #\n"
     output += "#                                            #\n"
     output += "#           2) Story2                        #\n"
     output += "#                                            #\n"
