@@ -13,4 +13,5 @@ def Story3(debug):
     output += " were playing "+sportName1+"\n"
     output += friendName1 + " scored a point"
 
-    return output
+    return output 
+
