@@ -43,7 +43,7 @@ def getWord(prompt,debug=False):
 
 def getSport(prompt,debug=False):
     if debug: print("getSport Function")
-    
+
     goodInput = False
     while not goodInput:
         word = input(prompt)
@@ -55,7 +55,7 @@ def getSport(prompt,debug=False):
         elif word.lower() not in Lists.sports:
             goodInput = False
             print("Please enter a sport!")
-    
+
     return word
 
 def getColor(prompt,debug=False):
