@@ -20,6 +20,11 @@ def Madlibs(debug=False):
         elif choice == "story1":
             print(Story1.Story1(debug))
             input("Press Any Key To Continue")
+            
+        elif choice == "story2":
+            print(Story2.Story2(debug))
+            input("Press Any Key To Continue")
+            
         elif choice == "naughty":
             print("Naughty Mode ON")
             Lists.swearlist = []

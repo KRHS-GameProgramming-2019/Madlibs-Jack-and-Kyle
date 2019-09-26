@@ -25,6 +25,7 @@ def Story1(debug=False):
     output += character1+" added a "+color2+" "+firstLetter+" to their "+kartType+".\n"
     output += "Now with their pimped out "+kartType+" "+character1+" went to the race track.\n"
     output += "At the race track "+character1+" saw "+character2+" and challenged them to a race.\n"
-    output += character2+" was faster, but "+character1+" was better and won the race!"
+    output += character2+" was faster, but "+character1+" was better and won the race!\n"
+    output += "\n"
     
     return output
