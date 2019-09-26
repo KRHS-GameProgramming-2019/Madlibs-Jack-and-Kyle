@@ -13,7 +13,7 @@ def Story1(debug=False):
     town = "TownTown"
     color2 = Getters.getColor("Pick a Color: ")
     firstLetter = character1[0].upper()
-    character2 = Getters.getMario_Character("Eneter a Mario Character: ")
+    character2 = Getters.getMario_Character("Enter a Mario Character: ")
     hours = Getters.getNumber("Enter a number: ")
     socialMedia = Getters.getSocial("Enter a Social Media Platform: ")
     

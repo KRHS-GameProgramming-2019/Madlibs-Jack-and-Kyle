@@ -1,5 +1,6 @@
 import Lists
 
+# Menu Options
 def getMenuOption(debug=False):
     if debug: print("getMenuOption Function")
     
@@ -26,6 +27,7 @@ def getMenuOption(debug=False):
     
     return option
 
+# Word Getter
 def getWord(prompt,debug=False):
     if debug: print("getWord Function")
     
@@ -41,6 +43,7 @@ def getWord(prompt,debug=False):
     
     return word
 
+#Sport Getter
 def getSport(prompt,debug=False):
     if debug: print("getSport Function")
 
@@ -58,6 +61,7 @@ def getSport(prompt,debug=False):
 
     return word
 
+#Color Getter
 def getColor(prompt,debug=False):
     if debug: print("getColor Function")
     
@@ -75,7 +79,7 @@ def getColor(prompt,debug=False):
     
     return word
 
-
+# Mario Character Getter
 def getMario_Character(prompt,debug=False):
     if debug: print("getMario_Character Function")
     
@@ -93,6 +97,7 @@ def getMario_Character(prompt,debug=False):
         
     return word
 
+# Vehicle Getter
 def getVehicle(prompt,debug=False):
     if debug: print("getMario_Vehicle Function")
     
@@ -110,6 +115,7 @@ def getVehicle(prompt,debug=False):
             
     return word
             
+# Get Social Media
 def getSocial(prompt,debug=False):
     if debug: print("getSocialMediaPlatform Function")
     
@@ -126,6 +132,7 @@ def getSocial(prompt,debug=False):
             print("Please enter a Social Media Platform!")
     return word
     
+#Get Number
 def getNumber(prompt,debug=False):
     if debug: print("getNumber Function")
     
@@ -143,7 +150,7 @@ def getNumber(prompt,debug=False):
 
     return number
 
-
+# Swear Checker
 def isSwear(word, debug=False):
     if debug: print("SwearWord Function")
     
