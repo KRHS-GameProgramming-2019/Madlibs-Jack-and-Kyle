@@ -22,6 +22,10 @@ def getMenuOption(debug=False):
             option == "story 1"):
                 option = "story1"
                 goodInput = True
+        
+        if option == "naughty":
+            option = "naughty"
+            goodInput = True
         else:
             print("Select A Menu Option")
     
