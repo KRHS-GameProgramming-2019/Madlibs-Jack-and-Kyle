@@ -84,13 +84,17 @@ def getColor(prompt,debug=False):
     return word
 
 # Mario Character Getter
-def getMario_Character(prompt,debug=False):
+def getMario_Character(prompt,debug=False,blocks=[]):
     if debug: print("getMario_Character Function")
     
     goodInput = False
     while not goodInput:
         word = input(prompt)
         goodInput = True
+        
+        if word.lower() in blocks:
+            goodInput = False
+            print("Choose a different character!")
         
         if isSwear(word,debug):
             goodInput = False
