@@ -134,15 +134,14 @@ def getNumber(prompt,debug=False):
         number = input(prompt)
         goodInput = True
         
-        if isSwear(word,debug):
-            goodInput = False
-            print("Please dont swear!")
         try:
             number = int(number)
             goodInput = True
         except:
             goodInput = False
             print("Please enter a number!")
+
+    return number
 
 
 def isSwear(word, debug=False):
