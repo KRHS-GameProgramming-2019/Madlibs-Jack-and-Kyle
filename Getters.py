@@ -93,7 +93,7 @@ def getMario_Character(prompt,debug=False):
         
     return word
 
-def getMario_Vehicle(prompt,debug=False):
+def getVehicle(prompt,debug=False):
     if debug: print("getMario_Vehicle Function")
     
     goodInput = False
@@ -110,7 +110,7 @@ def getMario_Vehicle(prompt,debug=False):
             
     return word
             
-def getSocial_Media_Platform(prompt,debug=False):
+def getSocial(prompt,debug=False):
     if debug: print("getSocialMediaPlatform Function")
     
     goodInput = False
