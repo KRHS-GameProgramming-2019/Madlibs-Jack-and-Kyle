@@ -16,6 +16,7 @@ def Story1(debug=False):
     character2 = Getters.getMario_Character("Enter a Mario Character: ")
     hours = Getters.getNumber("Enter a number: ")
     socialMedia = Getters.getSocial("Enter a Social Media Platform: ")
+    print("\n")
     
     output += "Mario Kart Legacy: \n"
     output += "One day "+character1+" was walking down the street,\n"
