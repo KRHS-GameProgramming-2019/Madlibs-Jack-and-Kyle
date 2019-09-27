@@ -29,6 +29,13 @@ def getMenuOption(debug=False):
             option == "story 2"):
                 option = "story2"
                 goodInput = True
+         
+        if (option == "3" or 
+            option == "three" or 
+            option == "story3" or
+            option == "story 3"):
+                option = "story3"
+                goodInput = True
         
         if option == "naughty":
             option = "naughty"
@@ -113,7 +120,7 @@ def getMario_Character(prompt,debug=False,blocks=[]):
     return word
 
 # Vehicle Getter
-def getVehicle(prompt,debug=False):
+def getMarioVehicle(prompt,debug=False):
     if debug: print("getMario_Vehicle Function")
     
     goodInput = False
@@ -169,6 +176,76 @@ def getNumber(prompt,limit = 100, debug=False):
 
     return number
     
+# Get Action
+def getAction(prompt,debug=False):
+    if debug: print("getAction Function")
+    
+    goodInput = False
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        
+        if isSwear(word,debug):
+            goodInput = False
+            print("Please dont swear!")
+        elif word.lower() not in Lists.action:
+            goodInput = False
+            print("Please enter a synonym for jumped")
+    return word
+    
+# Get Mario Villains
+def getMario_Villains(prompt,debug=False):
+    if debug: print("getMarioVillain Function")
+    
+    goodInput = False
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        
+        if isSwear(word,debug):
+            goodInput = False
+            print("Please dont swear!")
+        elif word.lower() not in Lists.mario_villains:
+            goodInput = False
+            print("Please enter a Mario Villain")
+    return word
+    
+# Get SFL
+def getSFL(prompt,debug=False):
+    if debug: print("getSFL Function")
+    
+    goodInput = False
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        
+        if isSwear(word,debug):
+            goodInput = False
+            print("Please dont swear!")
+        elif word.lower() not in Lists.SFL:
+            goodInput = False
+            print("Please enter a synonym for large!")
+    return word
+    
+# Get Vehicle
+def getVehicle(prompt,debug=False):
+    if debug: print("getVehicle Function")
+    
+    goodInput = False
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        
+        if isSwear(word,debug):
+            goodInput = False
+            print("Please dont swear!")
+        elif word.lower() not in Lists.vehicle:
+            goodInput = False
+            print("Please enter a vehicle type!")
+    return word
+   
+
+
     
 # Swear Checker
 def isSwear(word, debug=False):
