@@ -162,6 +162,7 @@ def getNumber(prompt,limit = 100, debug=False):
                 goodInput = True
             else:
                 goodInput = False
+                print("Please enter a number in the range!")
         except:
             goodInput = False
             print("Please enter a number!")
