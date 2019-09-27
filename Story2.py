@@ -27,7 +27,7 @@ def Story2(debug):
     output += "\n"
     output += "One "+timeOfDay+" "+character1+" went to a race at Bowsers Castle.\n"
     output += "The race was on "+number1+" CC, and the racers were ready to go!\n"
-    output += character1 + "was in the "+number2+" place to start, with their "+color1+" "+noun1+" ready to go.\n"
+    output += character1+" was in the "+number2+" place to start, with their "+color1+" "+noun1+" ready to go.\n"
     output += "They went through the course "+verb1+" and got to the first "+color2+" boost pad.\n"
     output += character1+" hit an item box and got a "+noun2+" they immediately used it on "+character2+".\n"
     output += "They then moved into pole position, but "+character1+" was soon contested by "+character3+" and they were fighting for the front.\n"
