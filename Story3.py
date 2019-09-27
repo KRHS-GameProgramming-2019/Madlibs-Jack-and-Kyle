@@ -19,7 +19,13 @@ def Story3(debug):
     output+= ""+character1" decided to meet up with "+character2" who was in their "+vehicle2" and kept on going. \n"
     output+= "When they arrived at Bowser's castle, they realized that the bridge across the firey pit of lava was "+number" miles long. \n"
     output+= "They crossed the bridge with no problems, but when they stood in front of the castle itself, they were unsure they would be able to save peach. \n"
-    output+= "They walked up the stairs into the castle when they were encountered by "+villain1"
+    output+= "The Castle was "+SFL1" ! they thought as they stared down the hallway towards Bowser's throne. \n"
+    output+= "They walked down the hallway of the castle when they were encountered by "+villain1" \n"
+    output+= ""+character1" and "+character2" fought off "+villain1" pretty easily, and kept moving. \n"
+    output+= "Finally, after "+number" hours of walking, they came to the throne, where Bowser sat. \n"
+    output+= "Fortunately, "+character2" brought a weapon for themselves and for "+character1". \n"
+    output+= "The battle began, Bowser using his "+schoolfriendlyweapon1" to try and fend off "+character1" and "+character2". \n"
+    output+= ""+character1" and "+character2" defeated Bowser using their magic powers rel
     
     
     
