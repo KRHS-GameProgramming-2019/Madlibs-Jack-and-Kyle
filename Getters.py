@@ -157,7 +157,8 @@ def getNumber(prompt,debug=False):
             print("Please enter a number!")
 
     return number
-
+    
+    
 # Swear Checker
 def isSwear(word, debug=False):
     if debug: print("SwearWord Function")
