@@ -22,6 +22,13 @@ def getMenuOption(debug=False):
             option == "story 1"):
                 option = "story1"
                 goodInput = True
+
+        if (option == "2" or 
+            option == "two" or 
+            option == "story2" or
+            option == "story 2"):
+                option = "story2"
+                goodInput = True
         
         if option == "naughty":
             option = "naughty"
@@ -141,7 +148,7 @@ def getSocial(prompt,debug=False):
     return word
     
 #Get Number
-def getNumber(prompt,debug=False):
+def getNumber(prompt,limit = 100, debug=False):
     if debug: print("getNumber Function")
     
     goodInput = False
@@ -151,7 +158,10 @@ def getNumber(prompt,debug=False):
         
         try:
             number = int(number)
-            goodInput = True
+            if number < limit:
+                goodInput = True
+            else:
+                goodInput = False
         except:
             goodInput = False
             print("Please enter a number!")

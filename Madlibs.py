@@ -1,6 +1,6 @@
 # Madlibs By Jack and Kyle
 
-import Screens, Getters, Story1, Lists
+import Screens, Getters, Story1, Story2, Lists
 
 def Madlibs(debug=False):
     if debug:
