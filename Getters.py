@@ -135,7 +135,7 @@ def getMario_Character(prompt,debug=False):
             goodInput = False
             print("Please enter a Mario Character!")
     
-    Lists.blocks.extend(word.lower())
+    Lists.blocks.append(word.lower())
     return word
 
 # Vehicle Getter
@@ -270,16 +270,16 @@ def getVerb(debug=False,endsWith=""):
     
     goodInput = False
     while not goodInput:
-        word = input("Enter a verb that ends with "+endsWith)
+        word = input("Enter a verb that ends with "+endsWith+": ")
         goodInput = True
-        
+
         if isSwear(word,debug):
             goodInput = False
             print("Please dont swear!")
         if not word.endswith(endsWith):
             goodInput = False
             print("The verb needs to end with "+endsWith+"!")
-            
+
     return word
     
 # Swear Checker
