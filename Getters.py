@@ -174,17 +174,17 @@ def getSocial(prompt,debug=False):
     return word
     
 #Get Number
-def getNumber(prompt,limit = 100, debug=False):
+def getNumber(mini = 0, maxi = 1,debug=False):
     if debug: print("getNumber Function")
     
     goodInput = False
     while not goodInput:
-        number = input(prompt)
+        number = input("Enter a number between "+mini+" and "+maxi+": ")
         goodInput = True
         
         try:
             number = int(number)
-            if number < limit:
+            if number < maxi+1 and number > mini-1:
                 goodInput = True
             else:
                 goodInput = False
