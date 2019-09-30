@@ -10,3 +10,5 @@ social_media_platform = ["instagram","facebook","snapchat","tumblr","whatsapp ",
 mario_vehicle = ["kart","bike"]
 vehicle = ["car","truck","bike","motorcycle","gokart","go-kart","go kart","helicopter","airplane","plane"]
 action = ["leaped","hurled","jumped","springed","bounded","hopped","skipped","bounced"]
+blocks = []
+times = ["morning","night","day","evening","afternoon","midday","midnight"]
