@@ -30,7 +30,7 @@ def Story3(debug=False):
  
 	output += "They "+action1+" out of bed and ran out the door at "+str(number1)+" miles per hour.\n"
    
-	output += "So, they hopped in their "+vehicle1+" which was "+color1+", and started towrads Bowser's castle, where he/she knew Peach was\n"
+	output += "So, they hopped in their "+vehicle1+" which was "+color1+", and started towards Bowser's castle, where they knew Peach was\n"
  
 	output += ""+character1+" decided to meet up with "+character2+" who was in their "+vehicle2+" and kept on going.\n"
    
