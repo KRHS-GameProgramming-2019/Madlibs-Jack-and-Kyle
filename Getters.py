@@ -183,7 +183,7 @@ def getNumber(mini = 0, maxi = 1,debug=False):
     
     goodInput = False
     while not goodInput:
-        number = input("Enter a number between "+mini+" and "+maxi+": ")
+        number = input("Enter a number between "+str(mini)+" and "+str(maxi)+": ")
         goodInput = True
         
         try:
