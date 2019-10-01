@@ -16,7 +16,7 @@ def Story2(debug):
     character2 = Getters.getMario_Character("Enter a Second Mario Character: ")
     character3 = Getters.getMario_Character("Enter a Third Mario Character: ")
     color3 = Getters.getColor("Enter a color: ")
-    noun3 = Getters.getWord("Etner a noun: ")
+    noun3 = Getters.getWord("Enter a noun: ")
     noun4 = Getters.getWord("Enter another noun: ")
     kartType1 = Getters.getVehicle("Bike or Kart? ")
     noun5 = Getters.getWord("Enter the last noun: ")

@@ -129,7 +129,7 @@ def getMario_Character(prompt,debug=False):
         
         if word.lower() in Lists.blocks:
             goodInput = False
-            print("Choose a different character!")
+            print("Choose a different character, "+word+" was already used!")
         
         if isSwear(word,debug):
             goodInput = False
@@ -139,7 +139,7 @@ def getMario_Character(prompt,debug=False):
             goodInput = False
             print("Please enter a Mario Character!")
     
-    Lists.blocks.append(word.lower())
+    blockWord(word)
     return word
 
 # Vehicle Getter
@@ -232,6 +232,10 @@ def getMario_Villains(prompt,debug=False):
         elif word.lower() not in Lists.mario_villains:
             goodInput = False
             print("Please enter a Mario Villain")
+        if isBlocked(word,debug):
+            goodInput = False
+            print("Pick another one, "+word+" was alreay used!")
+    blockWord(word)
     return word
     
 # Get SFL
@@ -285,6 +289,19 @@ def getVerb(debug=False,endsWith=""):
             print("The verb needs to end with "+endsWith+"!")
 
     return word
+
+#Block Checker
+def isBlocked(word, debug=False):
+    if debug: print("blockedChecker")
+    
+    if word.lower() in Lists.blocks:
+        return True
+    else:
+        return False
+    
+def blockWord(word, debug=False)
+    if debug: print("blockedChecker")
+    Lists.blocks.append(word.lower())
     
 # Swear Checker
 def isSwear(word, debug=False):
