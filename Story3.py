@@ -9,15 +9,15 @@ def Story3(debug=False):
     
 	character1 = Getters.getMario_Character("Enter a Mario Character: ")
 	action1 = Getters.getAction("Enter a synonym for jummped: ")
-	number1 = Getters.getNumber("Enter a number between 1 and 10: ", 11)
+	number1 = Getters.getNumber(1,11)
 	vehicle1 = Getters.getVehicle("Enter a vehicle type: ")
 	color1 = Getters.getColor("Enter a color: ")
 	character2 = Getters.getMario_Character("Enter a Second Mario Character: ")
 	vehicle2 = Getters.getVehicle("Enter a vehicle type: ")
-	number2 = Getters.getNumber("Enter a number between 1 and 10: ",11)
+	number2 = Getters.getNumber(1,11)
 	SFL1 = Getters.getSFL("Enter a synonym for large: ")
 	villain1 = Getters.getMario_Villains("Enter a Mario Villain: ")
-	number3 = Getters.getNumber("Enter a number between 1 and 24: ",25)
+	number3 = Getters.getNumber(1,25)
 	noun1 = Getters.getWord("Enter a restauraunt name: ")
 	
 	print("\n")
