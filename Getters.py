@@ -299,7 +299,7 @@ def isBlocked(word, debug=False):
     else:
         return False
     
-def blockWord(word, debug=False)
+def blockWord(word, debug=False):
     if debug: print("blockedChecker")
     Lists.blocks.append(word.lower())
     
