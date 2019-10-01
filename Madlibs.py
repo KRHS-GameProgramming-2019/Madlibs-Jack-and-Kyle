@@ -34,6 +34,6 @@ def Madlibs(debug=False):
             Lists.swearlist = []
         
         elif choice == "snake":
-            print("sksksks")
+            print("ooh you found an egg...")
             import Snake
 Madlibs()
