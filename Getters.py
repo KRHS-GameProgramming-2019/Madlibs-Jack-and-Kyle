@@ -40,6 +40,10 @@ def getMenuOption(debug=False):
         if option == "naughty":
             option = "naughty"
             goodInput = True
+        
+        if option == "snake":
+            option = "snake"
+            goodInput = True
         else:
             print("Select A Menu Option")
     

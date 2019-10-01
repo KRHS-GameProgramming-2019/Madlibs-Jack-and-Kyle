@@ -32,5 +32,8 @@ def Madlibs(debug=False):
         elif choice == "naughty":
             print("Naughty Mode ON")
             Lists.swearlist = []
-
+        
+        elif choice == "snake":
+            print("sksksks")
+            import Snake
 Madlibs()
