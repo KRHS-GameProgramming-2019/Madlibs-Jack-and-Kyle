@@ -50,6 +50,7 @@ def getMenuOption(debug=False):
             goodInput = True
         else:
             print("Select A Menu Option")
+
     
     return option
 
