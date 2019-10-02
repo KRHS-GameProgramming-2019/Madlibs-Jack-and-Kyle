@@ -12,6 +12,6 @@ gibby = pygame.image.load("gibby.jpg")
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT: sys.exit()
-    screen.blit(gibby,(0,0))
+    screen.blit(gibby,(0,0)) 
     clock.tick(60)
     pygame.display.flip()
