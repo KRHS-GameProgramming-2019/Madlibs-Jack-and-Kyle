@@ -1,6 +1,6 @@
 # Madlibs By Jack and Kyle
 
-import Screens, Getters, Story1, Story2, Lists, Story3
+import Screens, Getters, Story1, Story2, Lists, Story3, os
 
 def Madlibs(debug=False):
     if debug:
@@ -30,10 +30,13 @@ def Madlibs(debug=False):
             input("Press Any Key To Continue")
             
         elif choice == "naughty":
-            print("Naughty Mode ON")
+            print("\n Naughty Mode ON \n")
             Lists.swearlist = []
         
         elif choice == "snake":
-            print("ooh you found an egg...")
+            print("\n ooh you found an egg...")
             import Snake
+        elif choice == "gibby":
+            print("\n GIBBBBBBYYY")
+            import Gibby
 Madlibs()
