@@ -10,6 +10,6 @@ SFL = ["huge","massive","humungous","gargantuean","big","great","grand","substan
 social_media_platform = ["instagram","facebook","snapchat","tumblr","whatsapp ","youtube","twitter"]
 mario_vehicle = ["kart","bike"]
 vehicle = ["car","truck","bike","motorcycle","gokart","go-kart","go kart","helicopter","airplane","plane"]
-action = ["leaped","hurled","jumped","springed","bounded","hopped","skipped","bounced"]
+action = ["jumped","leaped","hurled","jumped","springed","bounded","hopped","skipped","bounced"]
 times = ["morning","night","day","evening","afternoon","midday","midnight"]
 blocks = []
