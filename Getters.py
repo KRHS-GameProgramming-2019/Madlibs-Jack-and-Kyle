@@ -279,7 +279,7 @@ def getVehicle(prompt,debug=False):
 
 #Get Verb
 def getVerb(debug=False,endsWith=""):
-    if debug: print("getVehicle Function")
+    if debug: print("getVerb Function")
     
     goodInput = False
     while not goodInput:
