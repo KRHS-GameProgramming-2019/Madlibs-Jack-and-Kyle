@@ -1,7 +1,7 @@
-import Lists
+    import Lists
 
-# Menu Options
-def getMenuOption(debug=False):
+# Menu Options | Jack and Kyle
+def getMenuOption(debug=False): 
     if debug: print("getMenuOption Function")
     
     goodInput = False
@@ -37,15 +37,15 @@ def getMenuOption(debug=False):
                 option = "story3"
                 goodInput = True
         
-        if option == "naughty":
+        if option == "naughty": #Jacks Egg
             option = "naughty"
             goodInput = True
         
-        if option == "snake":
+        if option == "snake": #Jacks Egg
             option = "snake"
             goodInput = True
 
-        if option == "gibby":
+        if option == "gibby": #Kyles Egg
             option = "gibby"
             goodInput = True
         else:
@@ -54,7 +54,7 @@ def getMenuOption(debug=False):
     
     return option
 
-# Word Getter
+# Word Getter | Jack
 def getWord(prompt,debug=False):
     if debug: print("getWord Function")
     
@@ -70,7 +70,7 @@ def getWord(prompt,debug=False):
     
     return word
 
-#Sport Getter
+#Sport Getter | Jack
 def getSport(prompt,debug=False):
     if debug: print("getSport Function")
     
@@ -88,7 +88,7 @@ def getSport(prompt,debug=False):
     
     return word
 
-#Time Of Day Getter
+#Time Of Day Getter | Jack
 def getTOD(prompt,debug=False):
     if debug: print("getTOD Function")
     
@@ -106,7 +106,7 @@ def getTOD(prompt,debug=False):
     
     return word
 
-#Color Getter
+#Color Getter | Jack
 def getColor(prompt,debug=False):
     if debug: print("getColor Function")
     
@@ -124,7 +124,7 @@ def getColor(prompt,debug=False):
     
     return word
 
-# Mario Character Getter
+# Mario Character Getter | Kyle
 def getMario_Character(prompt,debug=False):
     if debug: print("getMario_Character Function")
     goodInput = False
@@ -147,7 +147,7 @@ def getMario_Character(prompt,debug=False):
     blockWord(word)
     return word
 
-# Vehicle Getter
+# Vehicle Getter | Kyle
 def getMarioVehicle(prompt,debug=False):
     if debug: print("getMario_Vehicle Function")
     
@@ -165,7 +165,7 @@ def getMarioVehicle(prompt,debug=False):
             
     return word
             
-# Get Social Media
+# Get Social Media | Kyle
 def getSocial(prompt,debug=False):
     if debug: print("getSocialMediaPlatform Function")
     
@@ -182,7 +182,7 @@ def getSocial(prompt,debug=False):
             print("Please enter a Social Media Platform!")
     return word
     
-#Get Number
+#Get Number | Jack
 def getNumber(mini = 0, maxi = 1,debug=False):
     if debug: print("getNumber Function")
     
@@ -205,7 +205,7 @@ def getNumber(mini = 0, maxi = 1,debug=False):
     number = str(number)
     return number
     
-# Get Action
+# Get Action | Kyle
 def getAction(prompt,debug=False):
     if debug: print("getAction Function")
     
@@ -222,7 +222,7 @@ def getAction(prompt,debug=False):
             print("Please enter a synonym for jumped")
     return word
     
-# Get Mario Villains
+# Get Mario Villains | Kyle
 def getMario_Villains(prompt,debug=False):
     if debug: print("getMarioVillain Function")
     
@@ -243,7 +243,7 @@ def getMario_Villains(prompt,debug=False):
     blockWord(word)
     return word
     
-# Get SFL
+# Get SFL | Kyle
 def getSFL(prompt,debug=False):
     if debug: print("getSFL Function")
     
@@ -260,7 +260,7 @@ def getSFL(prompt,debug=False):
             print("Please enter a synonym for large!")
     return word
     
-# Get Vehicle
+# Get Vehicle | Kyle
 def getVehicle(prompt,debug=False):
     if debug: print("getVehicle Function")
     
@@ -277,7 +277,7 @@ def getVehicle(prompt,debug=False):
             print("Please enter a vehicle type!")
     return word
 
-#Get Verb
+#Get Verb | Jack
 def getVerb(debug=False,endsWith=""):
     if debug: print("getVehicle Function")
     
@@ -295,7 +295,7 @@ def getVerb(debug=False,endsWith=""):
 
     return word
 
-#Block Checker
+#Block Checker | Jack
 def isBlocked(word, debug=False):
     if debug: print("blockedChecker")
     
@@ -308,7 +308,7 @@ def blockWord(word, debug=False):
     if debug: print("blockedChecker")
     Lists.blocks.append(word.lower())
     
-# Swear Checker
+# Swear Checker | Kyle
 def isSwear(word, debug=False):
     if debug: print("SwearWord Function")
     
