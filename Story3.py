@@ -54,7 +54,7 @@ def Story3(debug=False):
  
 	output += "Peach was so thankful to see "+character1+" and "+character2+" and be successfully freed from her cage!\n"
     
-	output += "All three of the friends left the castle with no more encounters and decided to celebrate by going to "+noun1+"\n"
+	output += "All three of the friends left the castle with no more encounters and decided to celebrate by going to "+noun1+".\n"
 		
     
     

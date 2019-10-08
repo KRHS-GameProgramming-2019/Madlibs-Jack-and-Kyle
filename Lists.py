@@ -1,4 +1,4 @@
-# Nintendo Character, Color, Social media platform
+# Getters
 swearlist = ["poop","crap","pee","poopy","poopie","crappy","idiot","dummy","dumb","stupid","toilet","shit","nigger","bignigger","nigga","negro","slut","whore","cunt","spick","chink","mestizo","gypsie"
 ,"farts","ass","asshole","asswhole","fuck","shit","shitty","shittie","shart","shitted","shat","cuck","cock","genetalia","vagina","pussy","spunk","discharge","cum","porn","Kyle Goodwin"]
 
@@ -10,6 +10,6 @@ SFL = ["huge","massive","humungous","gargantuean","big","great","grand","substan
 social_media_platform = ["instagram","facebook","snapchat","tumblr","whatsapp ","youtube","twitter"]
 mario_vehicle = ["kart","bike"]
 vehicle = ["car","truck","bike","motorcycle","gokart","go-kart","go kart","helicopter","airplane","plane"]
-action = ["leaped","hurled","jumped","springed","bounded","hopped","skipped","bounced"]
+action = ["jumped","leaped","hurled","jumped","springed","bounded","hopped","skipped","bounced"]
 times = ["morning","night","day","evening","afternoon","midday","midnight"]
 blocks = []

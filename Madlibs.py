@@ -36,6 +36,7 @@ def Madlibs(debug=False):
         elif choice == "snake":
             print("\n ooh you found an egg...")
             import Snake
+       
         elif choice == "gibby":
             print("\n GIBBBBBBYYY")
             import Gibby
